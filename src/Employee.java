@@ -38,7 +38,7 @@ public class Employee {
         return "Employee " +
                 "fullName='" + fullName + '\'' +
                 ", salary=" + salary +
-                ", department=" + department;
+                ", department " + department;
     }
 
 

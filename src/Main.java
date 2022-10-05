@@ -20,6 +20,7 @@ public class Main {
          }
      }
      return average;
+
  }
 
 
@@ -60,11 +61,14 @@ public static void main (String[]args){
    Employee dima = new Employee("Комаров Дмитрий Валентинович", 30000, 1);
    System.out.println("ФИО "+ dima.getFullName());
    System.out.println("Зарплата "+ dima.getSalary());
-
    dima.setSalary(35000);
- System.out.println("Зарплата "+ dima.getSalary());
-    Employee dima1 = new Employee("Комаров Дмитрий Валентинович", 30000, 1);
-    System.out.println(dima1);
+ System.out.println("Зарплата изменена на "+ dima.getSalary());
+
+    System.out.println(dima);
+    System.out.println("номер отдела "+ dima.getDepartment());
+    dima.setDepartment(2);
+    System.out.println("номер отдела изменен на "+dima.getDepartment());
   }
+
  }
 
