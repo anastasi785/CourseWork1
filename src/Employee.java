@@ -3,11 +3,14 @@ public class Employee {
     private int salary;
     private int department;
 
+
+
     public Employee(String fullName, int salary, int department) {
         this.fullName = fullName;
         this.salary = salary;
         this.department = department;
     }
+
 
     public String getFullName() {
         return this.fullName;

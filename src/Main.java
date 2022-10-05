@@ -54,6 +54,7 @@ public static void main (String[]args){
    int[]salaries={30000,40000,50000,60000,70000};
    int[] departments = {1, 2, 3, 4, 5};
 
+
    for (int i = 0; i < fullNames.length; i++) {
     System.out.println("ФИО " + fullNames[i]  + " Номер отдела " + departments[i]+ " Зарплата "+ salaries[i]);
    }
