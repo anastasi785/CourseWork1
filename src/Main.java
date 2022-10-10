@@ -31,7 +31,7 @@ public class Main {
         return minSalary;
     }
     private static int calculateMaxSalary (Employee[]employees){
-        int maxSalary = employees[2].getSalary();
+        int maxSalary = employees[0].getSalary();
         for (int i = 0; i < employees.length; i++) {
             if (employees[i].getSalary() > maxSalary)
                 maxSalary = employees[i].getSalary();
