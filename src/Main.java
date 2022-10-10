@@ -1,8 +1,9 @@
 import javax.xml.transform.Templates;
 
 public class Main {
+    private static final Employee[] employees = new Employee[10];
     public static void main(String[] args) {
-        Employee[] employees = new Employee[10];
+
         employees[0] = new Employee("Васнецов Николай Петрович", 25000, 1);
         employees[1] = new Employee("Курочкин Василий Петрович", 20000, 2);
         employees[2] = new Employee("Иволгина Наталья Павловна", 30000, 3);
