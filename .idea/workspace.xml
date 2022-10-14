@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e6f6343-7f43-402e-b65a-f41b1bc256a9" name="Changes" comment="курсоваяиспр">
+    <list default="true" id="5e6f6343-7f43-402e-b65a-f41b1bc256a9" name="Changes" comment="курсоваяиспр2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -62,7 +62,8 @@
       <workItem from="1663083125311" duration="1932000" />
       <workItem from="1663085680545" duration="1001000" />
       <workItem from="1664998055267" duration="13474000" />
-      <workItem from="1665400299416" duration="15920000" />
+      <workItem from="1665400299416" duration="16905000" />
+      <workItem from="1665653134433" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="курсовая">
       <created>1663084465892</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665421213443</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="курсоваяиспр1">
+      <created>1665434468018</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665434468018</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +127,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="курсовая" />
     <MESSAGE value="курсоваяиспр" />
-    <option name="LAST_COMMIT_MESSAGE" value="курсоваяиспр" />
+    <MESSAGE value="курсоваяиспр1" />
+    <MESSAGE value="курсоваяиспр2" />
+    <option name="LAST_COMMIT_MESSAGE" value="курсоваяиспр2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>3</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,7 +1,6 @@
-import javax.xml.transform.Templates;
-
 public class Main {
     private static final Employee[] employees = new Employee[10];
+
     public static void main(String[] args) {
 
         employees[0] = new Employee("Васнецов Николай Петрович", 25000, 1);
@@ -19,7 +18,7 @@ public class Main {
         System.out.println("Минимальная зарплата " + calculateMinSalary(employees));
         System.out.println("Максимальная зарплата " + calculateMaxSalary(employees));
         System.out.println("Сумма затрат на зарплаты " + calculateTotalSalary(employees));
-        System.out.println("Среднее значение зарплат " + calculateTotalSalary(employees) / employees.length);
+        System.out.println("Среднее значение зарплат " + calculateAverage(employees));
     }
 
     private static int calculateMinSalary(Employee[] employees) {
@@ -30,7 +29,8 @@ public class Main {
         }
         return minSalary;
     }
-    private static int calculateMaxSalary (Employee[]employees){
+
+    private static int calculateMaxSalary(Employee[] employees) {
         int maxSalary = employees[0].getSalary();
         for (int i = 0; i < employees.length; i++) {
             if (employees[i].getSalary() > maxSalary)
@@ -38,13 +38,27 @@ public class Main {
         }
         return maxSalary;
     }
-         private static int calculateTotalSalary (Employee[]employees){
+
+    private static int calculateTotalSalary(Employee[] employees) {
         int totalSalary = 0;
         for (int i = 0; i < employees.length; i++) {
             totalSalary = totalSalary + employees[i].getSalary();
 
         }
         return totalSalary;
+    }
+
+    public static double calculateAverage(Employee[] employees) {
+        double average = 0;
+        double sum = 0;
+        int num=0;
+            for (int i = 0; i < employees.length; i++) {
+                if (employees[i]!=null)
+                sum = sum+employees[i].getSalary();
+                average = sum / employees.length;
+
+            }
+        return average;
     }
 }
 
