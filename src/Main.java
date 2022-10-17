@@ -50,14 +50,16 @@ public class Main {
 
     public static double calculateAverage(Employee[] employees) {
         double average = 0;
-        double sum = 0;
-        int num=0;
-            for (int i = 0; i < employees.length; i++) {
-                if (employees[i]!=null)
-                sum = sum+employees[i].getSalary();
-                average = sum / employees.length;
+        double sum=0;
+        int c=0;
+
+            for (int i=0;i<employees.length;i++) {
+                if (employees!=null)c++;
+                sum=sum+employees[i].getSalary();
+                average=sum/c;
 
             }
+
         return average;
     }
 }
