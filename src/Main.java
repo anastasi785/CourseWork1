@@ -51,12 +51,12 @@ public class Main {
     public static double calculateAverage(Employee[] employees) {
         double average = 0;
         double sum=0;
-        int c=0;
+        int counter=0;
         for (int i=0;i<employees.length;i++) {
-                if (employees!=null)c++;
+                if (employees!=null)counter++;
                 sum=sum+employees[i].getSalary();
         }
-        average=sum/c;
+        average=sum/counter;
 
         return average;
     }
