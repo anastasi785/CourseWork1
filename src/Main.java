@@ -52,13 +52,11 @@ public class Main {
         double average = 0;
         double sum=0;
         int c=0;
-
-            for (int i=0;i<employees.length;i++) {
+        for (int i=0;i<employees.length;i++) {
                 if (employees!=null)c++;
                 sum=sum+employees[i].getSalary();
-                average=sum/c;
-
-            }
+        }
+        average=sum/c;
 
         return average;
     }
