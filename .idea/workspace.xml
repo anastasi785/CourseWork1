@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e6f6343-7f43-402e-b65a-f41b1bc256a9" name="Changes" comment="курсоваяиспр5">
+    <list default="true" id="5e6f6343-7f43-402e-b65a-f41b1bc256a9" name="Changes" comment="курсоваяиспр15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <workItem from="1665653134433" duration="5851000" />
       <workItem from="1666034575112" duration="9904000" />
       <workItem from="1666192684054" duration="628000" />
-      <workItem from="1666279724530" duration="1001000" />
+      <workItem from="1666279724530" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="курсовая">
       <created>1663084465892</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666126342108</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="курсоваяиспр15">
+      <created>1666280813187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666280813187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +170,8 @@
     <MESSAGE value="курсоваяиспр3" />
     <MESSAGE value="курсоваяиспр4" />
     <MESSAGE value="курсоваяиспр5" />
-    <option name="LAST_COMMIT_MESSAGE" value="курсоваяиспр5" />
+    <MESSAGE value="курсоваяиспр15" />
+    <option name="LAST_COMMIT_MESSAGE" value="курсоваяиспр15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

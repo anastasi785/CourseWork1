@@ -11,11 +11,12 @@ public class Main {
         employees[7] = new Employee("Скворцов Сергей Валерьевич", 43000, 3);
         employees[8] = new Employee("Калашникова Юлия Сергеевна", 51000, 4);
         employees[9] = null;
-        for (int i = 0; i < employees.length; i++){
-            if(employees[i]!=null)
-                System.out.println(employees[i].toString());
+        for (int i = 0; i < employees.length; i++) {
+        if (employees[i] != null) {
+            System.out.println(employees[i].toString());
+        }
 
-            }
+    }
         System.out.println("Минимальная зарплата " + calculateMinSalary(employees));
         System.out.println("Максимальная зарплата " + calculateMaxSalary(employees));
         System.out.println("Сумма затрат на зарплаты " + calculateTotalSalary(employees));
@@ -25,7 +26,9 @@ public class Main {
         int minSalary = employees[0].getSalary();
         for (int i = 0; i < employees.length; i++) {
 
-             if (employees[i].getSalary() < minSalary)
+             if (employees[i].getSalary() < minSalary) {
+                 if (employees[i] != null) ;
+             }
                 minSalary = employees[i].getSalary();
         }
         return minSalary;
@@ -34,7 +37,10 @@ public class Main {
         int maxSalary = employees[0].getSalary();
         for (int i = 0; i < employees.length; i++) {
 
-            if (employees[i].getSalary() > maxSalary)
+            if (employees[i].getSalary() > maxSalary){
+                  if (employees[i] != null);
+            }
+
                 maxSalary = employees[i].getSalary();
         }
         return maxSalary;
@@ -42,6 +48,8 @@ public class Main {
     private static int calculateTotalSalary(Employee[] employees) {
         int totalSalary = 0;
         for (int i = 0; i < employees.length; i++) {
+            if (employees[i] != null);
+
 
             totalSalary = totalSalary + employees[i].getSalary();
         }
@@ -52,7 +60,8 @@ public class Main {
         double sum=0;
         int counter=0;
         for (int i=0;i<employees.length;i++) {
-                if (employees!=null)counter++;
+                if (employees!=null);
+                counter++;
                 sum=sum+employees[i].getSalary();
         }
         average=sum/counter;
