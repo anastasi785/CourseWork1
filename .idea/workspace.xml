@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e6f6343-7f43-402e-b65a-f41b1bc256a9" name="Changes" comment="курсоваяиспр15">
+    <list default="true" id="5e6f6343-7f43-402e-b65a-f41b1bc256a9" name="Changes" comment="курсоваяиспрмиллион1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -66,7 +66,12 @@
       <workItem from="1665653134433" duration="5851000" />
       <workItem from="1666034575112" duration="9904000" />
       <workItem from="1666192684054" duration="628000" />
-      <workItem from="1666279724530" duration="1975000" />
+      <workItem from="1666279724530" duration="2756000" />
+      <workItem from="1666468037046" duration="67000" />
+      <workItem from="1666562840027" duration="2293000" />
+      <workItem from="1666635110611" duration="1030000" />
+      <workItem from="1666692593258" duration="353000" />
+      <workItem from="1666728308786" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="курсовая">
       <created>1663084465892</created>
@@ -145,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666280813187</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="курсоваяиспр16">
+      <created>1666281827765</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666281827765</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,14 +183,17 @@
     <MESSAGE value="курсоваяиспр4" />
     <MESSAGE value="курсоваяиспр5" />
     <MESSAGE value="курсоваяиспр15" />
-    <option name="LAST_COMMIT_MESSAGE" value="курсоваяиспр15" />
+    <MESSAGE value="курсоваяиспр16" />
+    <MESSAGE value="курсоваяиспрмиллион" />
+    <MESSAGE value="курсоваяиспрмиллион1" />
+    <option name="LAST_COMMIT_MESSAGE" value="курсоваяиспрмиллион1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>2</line>
+          <line>3</line>
           <properties class="Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
